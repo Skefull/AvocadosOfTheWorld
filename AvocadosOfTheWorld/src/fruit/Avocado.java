@@ -11,4 +11,8 @@ package fruit;
  */
 public class Avocado extends Fruit {
 
+	public Avocado(int weight, float cost) {
+		// "super" means the base class
+		super(weight, cost); // Pass the weight and cost to the base class constructor
+	}
 }
